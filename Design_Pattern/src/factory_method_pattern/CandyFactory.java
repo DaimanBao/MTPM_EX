@@ -1,4 +1,4 @@
-package ex2;
+package factory_method_pattern;
 //(Factory Pattern)
 public class CandyFactory {
 

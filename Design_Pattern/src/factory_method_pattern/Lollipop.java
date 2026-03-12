@@ -1,4 +1,4 @@
-package ex2;
+package factory_method_pattern;
 
 public class Lollipop extends Candy {
     @Override

@@ -1,4 +1,4 @@
-package ex1;
+package singleton_pattern;
 
 public class PrintSpooler {
 	   private static PrintSpooler instance;

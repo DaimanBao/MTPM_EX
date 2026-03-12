@@ -1,4 +1,4 @@
-package ex2;
+package factory_method_pattern;
 
 public abstract class Candy {
     public abstract void prepare();
