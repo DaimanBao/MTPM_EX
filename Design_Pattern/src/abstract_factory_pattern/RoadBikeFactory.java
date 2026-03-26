@@ -5,4 +5,8 @@ public class RoadBikeFactory implements BikeFactory {
 	public Wheel geWheel() {
 		return new RoadBikeWheel();
 	}
+	
+	public Frame geFrame() {
+		return new RoadBikeFrame();
+	}
 }

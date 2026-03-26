@@ -9,7 +9,10 @@ public class BikeBuilder {
 	
 	public void buildBike() {
 		Wheel wheel = factory.geWheel();
+		Frame frame = factory.geFrame();
+		
 		wheel.createWheel();
+		frame.createFrame();
 	}
 	
 }

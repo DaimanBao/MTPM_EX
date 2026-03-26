@@ -5,4 +5,8 @@ public class MoutainBikeFactory implements BikeFactory {
 	public Wheel geWheel() {
 		return new MoutainBikeWheel();
 	}
+	
+	public Frame geFrame() {
+		return new MoutainBikeFrame();
+	}
 }
