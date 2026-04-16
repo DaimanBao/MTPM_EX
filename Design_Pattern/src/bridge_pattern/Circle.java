@@ -1,4 +1,4 @@
-package bridge_pattern;
+  package bridge_pattern;
 
 public class Circle extends Shape{
 	public Circle(Color color) {

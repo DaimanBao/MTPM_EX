@@ -1,6 +1,6 @@
 package factory_method_pattern;
 
-public class Chocolate extends Candy {
+public class Chocolate implements Candy {
     @Override
     public void prepare() {
         System.out.println("Preparing chocolate candy");
