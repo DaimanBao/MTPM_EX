@@ -7,8 +7,14 @@ public class Client {
         Payee s2 = new SalesPerson("Chí");
         
         SalesTeam team = new SalesTeam();
-        team.addPayees(m1,s1,s2);
+        team.addMember(m1,s1,s2);
         
         team.payExpenses(500);
+        
+        team.removeMember(s1);
+        
+        for(Payee member : team) {
+        	System.out.println(member.toString());
+        }
 	}
 }
